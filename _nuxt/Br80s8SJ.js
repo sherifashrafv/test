@@ -1,0 +1,1 @@
+import{a as u,ag as r,b as s}from"./C5_RKV0h.js";function l(a,t){let{target:e}=a;for(;e;){if(e.dataset&&e.dataset[t]!==void 0)return!0;e=e.parentElement}return!1}function i(a){const t=u(!!a.value);if(t.value)return r(t);const e=s(a,n=>{n&&(t.value=!0,e())});return r(t)}export{l as h,i as u};
